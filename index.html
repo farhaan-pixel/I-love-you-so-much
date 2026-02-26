@@ -1,0 +1,89 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      padding: 80px 20px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      color: #ff4d6d;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      background-color: #ff4d6d;
+      color: white;
+      cursor: pointer;
+    }
+
+    .gallery {
+      margin-top: 60px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin: 10px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>I’m Sorry.</h1>
+
+    <p>
+      Thank you for giving me another chance.
+      I won’t just promise — I’ll show you.
+      I won’t do things that hurt you.
+    </p>
+
+    <button onclick="stayWithMe()">Will You Stay With Me?</button>
+
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x250">
+      <img src="https://via.placeholder.com/200x250">
+      <img src="https://via.placeholder.com/200x250">
+    </div>
+  </div>
+
+  <script>
+    function stayWithMe() {
+      alert("I choose you. Always. ❤️");
+    }
+  </script>
+
+</body>
+</html>
